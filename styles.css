@@ -9,22 +9,22 @@ body {
 header {
     background-color: blanchedalmond;
     font-size: 3em;
+    padding: 5px
 }
-
+a {
+    color:black
+}
 main {
+    margin:auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: gainsboro;
+    padding: 5px
 }
 
-header div ul li {
-    display: inline-block;
-    margin-left: 25px;
+.navbar-nav {
     font-size: 1rem;
 }
 
-header li {
-    display: inline-block;
-}
 
 #introduction {
     display: flex;
@@ -39,10 +39,10 @@ header li {
     margin: 2% 0 0 0;
 }
 
-.horiseon{
+.project1Span{
     height: 15vw;
     width: 100%;
-    background-image: url("https://jmsingh9899.github.io/first-day-repo/assets/images/search-engine-optimization.jpg");
+    background-image: url("https://user-images.githubusercontent.com/88464865/136594157-63905bb0-f41f-4c50-b4dc-9cd6fc894c2b.png");
     background-size: cover;
     background-position: center;
 }
@@ -64,3 +64,36 @@ header li {
 footer {
     text-align: center;
 }
+
+
+.assignments {
+    margin: 5%;
+}
+
+.slideshow-container {
+    max-width: 1420px;
+    position: relative;
+    margin: auto;
+  }
+
+  .works{
+      display: none;
+  }
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
