@@ -47,6 +47,14 @@ main {
     background-position: center;
 }
 
+.project1Span{
+    height: 15vw;
+    width: 100%;
+    background-image: url("https://raw.githubusercontent.com/Alextheshire/mental-health-tracker/dev/assets/screencapture-mental-health-tracker-dbt-herokuapp-profile-2021-11-09-09_41_16.png");
+    background-size: cover;
+    background-position: center;
+}
+
 #contact {
     display: flex;
     padding: 2%;
